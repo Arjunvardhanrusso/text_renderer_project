@@ -1,0 +1,2 @@
+samples,baseline_word_accuracy,renderer_word_accuracy,baseline_cer,renderer_cer,baseline_ocr_confidence,renderer_ocr_confidence,baseline_ssim,renderer_ssim,baseline_psnr,renderer_psnr
+473,0.0021141649048625794,0.28118393234672306,0.9936979041630206,0.4437088105692757,0.011495049587350559,0.37792042008991067,0.77207047,0.77095014,23.107460300117744,23.05755571830702

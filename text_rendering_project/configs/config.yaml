@@ -1,0 +1,27 @@
+project:
+  name: text_rendering_project
+  seed: 42
+
+data:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  annotations_dir: data/annotations
+
+image:
+  width: 128
+  height: 128
+
+training:
+  batch_size: 16
+  epochs: 20
+  learning_rate: 0.001
+  num_workers: 2
+
+model:
+  base_channels: 32
+
+output:
+  checkpoints: outputs/checkpoints
+  generated_images: outputs/generated_images
+  metrics: outputs/metrics
+  plots: outputs/plots

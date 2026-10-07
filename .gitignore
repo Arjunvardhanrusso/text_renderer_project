@@ -1,0 +1,32 @@
+# Environments
+venv/
+**/venv/
+.venv/
+**/.venv/
+env/
+**/env/
+
+# Python cache & artifacts
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# macOS metadata & system files
+.DS_Store
+**/.DS_Store
+__MACOSX/
+**/__MACOSX/
+._*
+**/._*
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs & temp
+*.log
+*.tmp
